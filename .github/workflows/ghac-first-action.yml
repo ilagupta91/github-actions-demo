@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "First Workflow"
+        run: echo "First Workflow" | echo "running second command"
   
